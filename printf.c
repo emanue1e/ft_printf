@@ -112,8 +112,3 @@ int	ft_printf(const char	*s, ...)
 	va_end(ap);
 	return (len);
 }
-#include <stdio.h>
-int main()
-{
-	printf("hello");
-}
